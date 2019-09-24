@@ -3,21 +3,28 @@ h1 {
     font-size: 36px;
     font-family: helvetica;
     text-transform: uppercase;
-    letter-spacing:2px;
+    letter-spacing:3px;
     container: center;
     margin-bottom: 0px;
 }
+
 body{
-    max-width:800px;
-    container:center;
+    max:800px;
+    container:middle
     margin-top:20px;
-    margin-right:20px;
+    margin-bottom: :20px;
     font-family:serif;
 }
 
 .center-top-content{
     container:center;
     border-bottom:#39CCCC;
+}
+
+#title {
+  text-align: center;
+  color:#D3D3D3;
+  text-weight:italic;
 }
 
 .nav{
@@ -38,12 +45,11 @@ body{
   float:right;
 }
 
-}
 .introduction{
   line-height:2px;
 }
 
-ul{
+li{
   list-style-type: none;
   display: inline-block;
 }
@@ -68,7 +74,6 @@ h3 {
 h4 {
   font-family: helvetica;
   font-weight: normal;
-  p-styles
 }
 
 h5 {
