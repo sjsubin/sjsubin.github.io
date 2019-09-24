@@ -1,19 +1,20 @@
 h1 {
     color:#33485e;
     font-size: 36px;
-    font-family: sans-serif;
+    font-family: helvetica;
     text-transform: uppercase;
-    letter-spacing: 2px
+    letter-spacing:2px;
     container: center;
     margin-bottom: 0px;
 }
 body{
-    max-width: 800px;
+    max-width:800px;
     container:center;
-    margin-top: : 20px;
-    margin-right: :20px
-    font-family: serif;
+    margin-top:20px;
+    margin-right:20px;
+    font-family:serif;
 }
+
 .center-top-content{
     container:center;
     border-bottom:#39CCCC;
@@ -21,20 +22,21 @@ body{
 
 .nav{
   padding-bottom:2;
-  list-style-type: none;
+  list-style-type:none;
 }
 
 .work-title{
     container: center;
     color: #D3D3D3;
 }
-div.main-content{
-  width:80%
+
+.main-content{
+  width:80%;
   spacing:center;
 }
 .photo{
   float:right;
-  container:33%
+  container:33%;
 }
 
 }
@@ -44,14 +46,13 @@ div.main-content{
 
 ul{
   list-style-type: none;
-  margin:0
-  padding:0
+  display: inline-block;
 }
 
 h2 {
   font-family: sans-serif;
   background-color: #33485e;
-  font-color: white
+  color: white;
   padding:5px;
 }
 
@@ -62,17 +63,17 @@ h2 {
 }
 
 h3 {
-  font-family: sans-serif;
+  font-family: helvetica;
 }
 
 h4 {
-  font-family: sans-serif;
+  font-family: helvetica;
   font-weight: normal;
   p-styles
 }
 
 h5 {
-  font-family: sans-serif;
+  font-family: helvetica;
   font-style: italic;
   font-weight: normal;
 }
