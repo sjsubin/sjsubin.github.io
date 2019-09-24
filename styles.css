@@ -21,17 +21,37 @@ body{
 
 .nav{
   padding-bottom:2;
-  list-style:none;
+  list-style-type: none;
 }
 
-#work-title{
+.work-title{
     align-content: center;
     color: #D3D3D3;
 }
-
+div.main-content{
+  width:80%
+  spacing:center;
+}
+.photo{
+  align:right;
+  width:33%;
+}
+.introduction{
+  line-height:2px;
+}
 
 h2 {
   font-family: sans-serif;
+  background-color: #33485e;
+  font-color: white
+  padding:5px;
+}
+
+div.container-experience p{
+  font-size: 14px
+  margin-top: 5px;
+  margin-bottom: 5px;
+
 }
 
 h3 {
@@ -40,8 +60,12 @@ h3 {
 
 h4 {
   font-family: sans-serif;
+  font-weight: normal;
+  p-styles
 }
 
 h5 {
   font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
 }
