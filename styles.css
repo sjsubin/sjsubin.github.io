@@ -12,46 +12,39 @@ body{
     max:800px;
     container:middle
     margin-top:20px;
-    margin-bottom: :20px;
+    margin-bottom:20px;
     font-family:serif;
 }
 
 .center-top-content{
     container:center;
-    border-bottom:#39CCCC;
+    border-bottom-color:#39CCCC;
+    border-bottom-style: inset;
 }
 
-#title {
+#personaltitle {
   text-align: center;
   color:#D3D3D3;
   text-weight:italic;
 }
 
-.nav{
-  padding-bottom:2;
-  list-style-type:none;
+#navigation{
+    list-style-type: none;
+    display: inline-block;
+    align-items: center;
 }
-
-.work-title{
-    container: center;
-    color: #D3D3D3;
-}
-
 .main-content{
   width:80%;
-  spacing:center;
+  content:center;
+}
+
+#introduction {
+    line-height: inherit;
+    container:center;
 }
 .photo{
   float:right;
 }
-
-.introduction{
-  line-height:2px;
-}
-
-li{
-  list-style-type: none;
-  display: inline-block;
 }
 
 h2 {
