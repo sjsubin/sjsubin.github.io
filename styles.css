@@ -34,14 +34,20 @@ div.main-content{
 }
 .photo{
   float:right;
-  max-width 33%;
+  container:33%
+}
+
 }
 .introduction{
   line-height:2px;
 }
-li{
+
+ul{
   list-style-type: none;
+  margin:0
+  padding:0
 }
+
 h2 {
   font-family: sans-serif;
   background-color: #33485e;
@@ -49,7 +55,7 @@ h2 {
   padding:5px;
 }
 
-div.container-experience p {
+.container-experience p {
   font-size: 14px
   margin-top: 5px;
   margin-bottom: 5px;
