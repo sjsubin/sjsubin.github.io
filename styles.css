@@ -4,18 +4,18 @@ h1 {
     font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px
-    text-align: center;
+    container: center;
     margin-bottom: 0px;
 }
 body{
     max-width: 800px;
-    text-align: center;
-    top-margin: 20px;
-    bottom-margin:20px
+    container:center;
+    margin-top: : 20px;
+    margin-right: :20px
     font-family: serif;
 }
 .center-top-content{
-    text-align:center;
+    container:center;
     border-bottom:#39CCCC;
 }
 
@@ -25,7 +25,7 @@ body{
 }
 
 .work-title{
-    align-content: center;
+    container: center;
     color: #D3D3D3;
 }
 div.main-content{
@@ -33,13 +33,15 @@ div.main-content{
   spacing:center;
 }
 .photo{
-  align:right;
-  width:33%;
+  float:right;
+  max-width 33%;
 }
 .introduction{
   line-height:2px;
 }
-
+li{
+  list-style-type: none;
+}
 h2 {
   font-family: sans-serif;
   background-color: #33485e;
@@ -47,11 +49,10 @@ h2 {
   padding:5px;
 }
 
-div.container-experience p{
+div.container-experience p {
   font-size: 14px
   margin-top: 5px;
   margin-bottom: 5px;
-
 }
 
 h3 {
