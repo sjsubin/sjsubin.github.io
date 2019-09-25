@@ -20,7 +20,7 @@ p{
 }
 
 
-.h1{
+h1{
   text-transform: uppercase;
   color: #33485e;
   letter-spacing: 8px;
@@ -44,6 +44,11 @@ p{
 }
 .navigation li{
   float: left;
+}
+
+.navigation li a{
+  display: block;
+  text-align: center;
 }
 .personal-title {
   font-style: italic;
