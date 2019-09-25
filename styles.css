@@ -53,8 +53,9 @@ li a{
 img {
  float: right;
  padding:0px;
+ }
 
-.highlight-me{
+ highlight-me {
   background-color: #33485e;
   padding-bottom: 3px;
   padding-top:3px;
