@@ -29,6 +29,12 @@ h1{
   font-family:'helvetica',sans-serif;
 }
 
+.division-top{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
 .navigation{
   text-align: center;
 }
@@ -49,6 +55,7 @@ h1{
 .navigation li a{
   display: block;
   text-align: center;
+  padding: 10px;
 }
 .personal-title {
   font-style: italic;
