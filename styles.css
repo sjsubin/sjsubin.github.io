@@ -23,14 +23,13 @@ h1{
   color: #33485e;
   letter-spacing: 8px;
   text-align: center;
-  margin-bottom:0px;
-  font: helvetica;
+  margin-bottom:0px
+  font-family:helvetica,sans-serif;
 }
 
-}
 li a{
   display: inline;
-  padding: 0.3px;
+  padding: 0px;
   margin-right: 0px;
   margin-top: 7px;
   border: none;
@@ -56,7 +55,7 @@ img {
  float: right;
  padding:0px;
 
-.highlight-me {
+.highlight-me{
   background-color: #33485e;
   padding-bottom: 3px;
   padding-top:3px;
@@ -70,16 +69,15 @@ h2{
   background-color:#33485e;
   color:white;
   padding: 5px;
-  font:helvetica;
+  font-family:helvetica,sans-serif;
 }
 
 h3{
   color: black;
-  font:helvetica;
 }
 h4 {
   font-weight: normal;
-  font:helvetica;
+  font-family:helvetica,sans-serif;
   color:black;
 }
 
@@ -87,15 +85,13 @@ h5 {
   font-weight: normal;
   font-style: italic;
   color: black;
-  font-family:sans-serif;
-  font:helvetica;
+  font-family:helvetica,sans-serif;
 }
 .container-experience{
   margin-bottom: 5px;
   margin-top:5px;
   font-size: 14px;
 }
-
 .university{
   font-style: italic;
 }
