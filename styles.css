@@ -27,18 +27,10 @@ h1{
   font-family:helvetica,sans-serif;
 }
 
-ul{
-  list-style-type:none;
-  text-align: center;
-  display: inline-block;
-  padding:0;
-  margin:0;
-  overflow:hidden;
-
 }
 li a{
   display: inline;
-  padding: 0px 0px 0px 170px;
+  padding: 0.3px;
   margin-right: 0px;
   margin-top: 7px;
   border: none;
@@ -62,7 +54,7 @@ li a{
 
 img {
  float: right;
- padding: 0 20px 20px 0;}
+ padding:0px;
 
 .highlight-me {
   background-color: #33485e;
@@ -80,14 +72,20 @@ h2{
   padding: 5px;
   font-family:helvetica,sans-serif;
 }
+
+h3{
+  color: black;
+}
 h4 {
   font-weight: normal;
   font-family:helvetica,sans-serif;
+  color:black;
 }
 
 h5 {
   font-weight: normal;
   font-style: italic;
+  color: black;
   font-family:helvetica,sans-serif;
 }
 .container-experience{
