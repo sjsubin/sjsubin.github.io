@@ -1,76 +1,81 @@
+/*
+font-family: 'Roboto Slab', serif;
 
 
-.body{
+*/
+
+body {
+  max-width: 800px;
   margin-top: 20px;
   margin-bottom:20px;
-  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  font-family:'Garamond',serif;
+  font-family: 'PT Serif', serif;
 }
 
-p {
-  font-family: 'Garamond',serif;
+.personal-title {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color:grey;
 }
+
 .center-top-content{
-  border-bottom-style:groove;
-  border-bottom-color:#33485e;
-  margin:auto;
+  margin-top:0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  max-width: 500px;
+  text-align: center;
+  border-bottom: 1px solid grey;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Be Vietnam', sans-serif;
+}
 
-h1{
+h1 {
   text-transform: uppercase;
   color: #33485e;
   letter-spacing: 8px;
-  text-align: center;
-  margin-bottom:0px;
-  font-family:'helvetica',sans-serif;
-
-}
-.navigation{
-  text-align: center;
+  margin-bottom: 0;
 }
 
-.navigation ul{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  margin-left:auto;
-  margin-right: auto;
+#navigation {
+  max-width: 435px;
+  margin: 0 auto 20px;
+  padding-left: 0;
+}
+
+#navigation li{
   display: inline-block;
-  overflow: hidden;
-}
-.navigation li{
-  float: left;
 }
 
-.navigation li a{
-  display: block;
-  text-align: center;
-  padding: 10px;
+#navigation > li:not(:last-child)::after {
+  content: "|";
+  margin: 0 .25em;
 }
-.personal-title {
-  font-style: italic;
-  text-align: center;
-  color:#D3D3D3;
-}
+
 .main-content {
   width:80%;
+  margin: 0 auto;
 }
 
 .introduction {
   line-height: 1.8;
+  overflow: auto;
 }
 
-img {
+.introduction img {
+ width: 33%;
  float: right;
- max-width: 33%;
+ margin-top: 16px;
  margin-left: 20px;
- margin-right: 20px;
+ margin-bottom: 20px;
+ margin-bottom: 0;
 }
 
-.highlight-me {
+.highlight {
   background-color: #33485e;
   padding-bottom: 3px;
   padding-top:3px;
@@ -84,29 +89,25 @@ h2 {
   background-color:#33485e;
   color: white;
   padding: 5px;
-  font-family:'helvetica',sans-serif;
 }
 
-h3{
-  color: black;
-}
-
-h4 {
-  font-weight: normal;
-  font-family:'helvetica',sans-serif;
-  color:black;
+h4, h5 {
+  font-weight: 400;
 }
 
 h5 {
   font-style: italic;
-  color: black;
-  font-family:'helvetica',sans-serif;
 }
-.container-experience{
+
+.container-experience h2, .container-experience h3, .container-experience h4, .container-experience h5 {
   margin-bottom: 5px;
   margin-top:5px;
+}
+
+.container-experience p {
   font-size: 14px;
 }
-.university{
+
+.university {
   font-style: italic;
 }
