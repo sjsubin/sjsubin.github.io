@@ -37,7 +37,12 @@ ul{
 
 }
 li a{
-  display: inline-block;
+  display: inline;
+  padding: 0px 0px 0px 170px;
+  margin-right: 0px;
+  margin-top: 7px;
+  border: none;
+  line-height: 25px;
 
 }
 
@@ -55,9 +60,9 @@ li a{
   line-height: 1.8;
 }
 
-img {
-  width: 33%;
-  height: auto;
+img.right {
+ float: right;
+ padding: 0 20px 20px 0;}
 }
 
 .highlight-me {
