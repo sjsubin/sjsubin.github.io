@@ -93,6 +93,11 @@ h5 {
   margin-top:5px;
   font-size: 14px;
 }
+
 .university{
   font-style: italic;
+}
+
+h2 p{
+  text-align: left;
 }
