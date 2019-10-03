@@ -1,6 +1,6 @@
 /* font-family: "Raleway", sans-serif; */
 
-h1,h2,h4,h5,h6 {
+h1,h2,h4 {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -13,9 +13,30 @@ ul {
 }
 
 h3 {
-color:#8B0000;
+color:#b30000;
 font-family: 'Raleway', sans-serif;
-font-weight: 800;
+text-transform: uppercase;
+border-bottom: dotted;
+border-width: 1px;
+letter-spacing: 3px;
+border-color: grey;
+align:left;
+margin-right: 700px;
+font-weight: bold;
+}
+
+h5 {
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+h6 {
+  color:#b30000;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
 }
 
 .meal {
@@ -24,19 +45,19 @@ font-weight: 800;
 }
 
 
-img {
-  width:425px;
+img.logo {
+  width:400px;
   text-align: center;
 }
 
 .center-top-content {
   text-align: center;
-  padding-right: 250px;
-  max-width:500px;
+  max-width:600px;
   letter-spacing: 2px;
-  margin-left: auto;
-  marging-right:auto;
+  margin-left: 400px;
+  margin-right:200px;
   margin-top:0;
+  letter-spacing: 2px;
   margin-bottom: 20px;
 
 }
@@ -48,23 +69,24 @@ img {
 }
 
 .about {
-  color:#729da6;
+  color:#87a5ab;
   text-align: center;
   font-size: 12px;
 }
 
 .title {
-  color:#729da6;
+  color:#87a5ab;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
   text-transform: uppercase;
   border-top-width:2px;
-  border-top-color: grey;
+  border-top-color: #b3cccc;
   border-top-style: dotted;
   border-bottom-width:2px;
-  border-bottom-color: grey;
+  border-bottom-color: #b3cccc;
   border-bottom-style: dotted;
+  font-weight: 800px;
 }
 
 .main-content{
@@ -79,13 +101,15 @@ img {
 }
 
 .background-highlight {
-background-color: #dae6f3;
+background-color: #d1e0e0;
 padding-left: 5px;
 padding-right: 3px;
 color:black;
 padding-top: 2.5px;
 padding-bottom: 2.5px;
 text-indent: 12px;
+border-style: dotted;
+border-width: 1px;
 }
 
 .toppings {
@@ -93,11 +117,36 @@ text-indent: 12px;
   font-style: italic;
 }
 
-.event-space{
+.event-space {
   float: right;
 }
 
 .info {
   color: grey;
   word-spacing: -1px;
+  object-fit: contain;
+  margin-top: 50px;
+}
+
+hr{
+  width: 30%;
+
+
+}
+.sides{
+  margin: auto;
+  font-weight: lighter;
+}
+img.dining{
+  float: right;
+  width: 300px;
+  height: 200px;
+  padding-right: 100px;
+}
+
+a{
+  color:#b30000;
+}
+.space {
+  margin-bottom: 50px;
 }
