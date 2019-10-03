@@ -1,0 +1,79 @@
+/* font-family: "Raleway", sans-serif; */
+
+}
+h1, h2, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+ }
+
+ul {
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+color:#8B0000;
+font-family: 'Raleway', sans-serif;
+}
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+
+img {
+  width:425px;
+  text-align: center;
+}
+
+.center-top-content {
+  text-align: center;
+  padding-right: 250px;
+  max-width:500px;
+  letter-spacing: 2px;
+  margin-left: auto;
+  marging-right:auto;
+  margin-top:0;
+  margin-bottom: 20px;
+
+}
+
+#kitchen {
+  text-transform: uppercase;
+  color:grey;
+  text-align: center;
+}
+
+.about {
+  color:#729da6;
+  text-align: center;
+  font-size: 12px;
+}
+
+.title {
+  color:#729da6;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-top-width:2px;
+  border-top-color: grey;
+  border-top-style: dotted;
+  border-bottom-width:2px;
+  border-bottom-color: grey;
+  border-bottom-style: dotted;
+}
+
+body{
+  width: 80%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.price {
+  font-style: italic;
+  font-weight: bold;
+}

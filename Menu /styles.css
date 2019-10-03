@@ -1,0 +1,39 @@
+/* font-family: "Raleway", sans-serif; */
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.center-top-content {
+  max-width:400px;
+  letter-spacing: 2px;
+  margin-left: auto;
+  marging-right:auto;
+  margin-top:0;
+  margin-bottom: 15px;
+
+}
+
+.kitchen {
+  color:grey;
+
+}
+
+.about {
+  color:#729da6;
+  text-transform: uppercase;
+}
+
+.title {
+  color:#729da6;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  border-top-width:1px;
+  border-top-color: grey;
+  border-top-style: dotted;
+  border-bottom-width:15px;
+  border-bottom-color: grey;
+  border-bottom-style: dotted;
+}
