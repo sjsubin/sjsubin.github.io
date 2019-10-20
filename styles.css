@@ -1,0 +1,108 @@
+img{
+  width:100%;
+
+}
+body {
+  margin-top: 20px;
+  margin-bottom:20px;
+  font-family: 'PT Serif', serif;
+}
+.personal-title {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color:grey;
+}
+
+.center-top-content{
+  margin-top:0;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #33485e;
+  letter-spacing: 8px;
+  margin-bottom: 0;
+}
+
+#navigation {
+  margin: 0 auto 20px;
+  padding-left: 0;
+}
+
+#navigation li{
+  display: inline-block;
+}
+
+#navigation > li:not(:last-child)::after {
+  content: "|";
+  margin: 0 .25em;
+}
+
+
+.introduction {
+  line-height: 1.8;
+  overflow: auto;
+}
+
+.introduction img {
+ width: 33%;
+ float: right;
+ margin-top: 16px;
+ margin-left: 20px;
+ margin-bottom: 20px;
+ margin-bottom: 0;
+}
+
+.highlight {
+  background-color: #33485e;
+  padding-bottom: 3px;
+  padding-top:3px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  background-color:#33485e;
+  color: white;
+  padding: 5px;
+}
+
+h4, h5 {
+  font-weight: 400;
+}
+
+h5 {
+  font-style: italic;
+}
+
+.container-experience p {
+  font-size: 14px;
+}
+
+.university {
+  font-style: italic;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 100px;
+  font-family: 'PT Serif', serif;
+  padding: 5px;
+  background-color: #FBFDF2;
+  color: #B72AB2;
+}
+
+.col-md-4 {
+  margin-left: 0px;
+  margin-top: 100px;
+}
