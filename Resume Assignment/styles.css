@@ -46,7 +46,7 @@ h1 {
 }
 
 #navigation > li:not(:last-child)::after {
-  content: "|";
+  content: "/";
   margin: 0 .25em;
 }
 
@@ -150,6 +150,7 @@ h5 {
   text-align: center;
   padding:5px;
   font-family: 'Quicksand', sans-serif;
+  color: #457587;
 }
 
 .work-pictures img{
@@ -157,6 +158,13 @@ margin-left: 20px;
 margin-right: 20px;
 height: 100%;
 overflow: hidden;
+border-radius: 3px;
+}
+
+.work-pictures p{
+  color: #457587;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
 }
 
 .col-md-12 {
@@ -167,5 +175,6 @@ overflow: hidden;
     font-size: 50px;
 }
 
-.row-b {
-  margin-bottom: 40px;
+.farm img{
+  height: 40%;
+}
