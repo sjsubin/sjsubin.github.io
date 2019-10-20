@@ -4,7 +4,8 @@ img{
 
 .about-me-photo img{
   width:70%;
-  border-radius: 50%
+  border-radius: 70%;
+  margin-bottom: 20px;
 }
 body {
   background-color: #ECF1DA;
@@ -16,7 +17,7 @@ body {
   font-weight: bold;
   font-style: italic;
   text-align: center;
-  color:grey;
+  color: #6B6B6B;
 }
 
 .center-top-content{
@@ -35,19 +36,26 @@ h1 {
   color: #457587;
   letter-spacing: 8px;
   font-weight: 400;
+  border-style: groove;
 }
 
-#navigation {
-  text-align: center;
+.navigation {
+  text-align: left;
+  padding: 5px;
+  background-color: #6B6B6B;
+  font-family: "Heebo", sans-serif;
+  border-radius: 3px;
 }
 
-#navigation li{
+.navigation li{
   display: inline-block;
+  color: white;
 }
 
-#navigation > li:not(:last-child)::after {
+.navigation > li:not(:last-child)::after {
   content: "/";
   margin: 0 .25em;
+  color: white;
 }
 
 
@@ -76,12 +84,13 @@ h1 {
 }
 
 h2 {
-  background-color:#699A46;
+  background-color: #4D7033;
   color: white;
   text-transform: uppercase;
   letter-spacing: 8px;
   padding: 8px;
   text-align: center;
+  border-style:solid;
 }
 
 h4, h5 {
@@ -111,16 +120,18 @@ h5 {
 
 .col-md-5 {
   margin-left: 0px;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 .col-md-7 {
   margin-top: 40px;
   float: right;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Work Sans', sans-serif;
   letter-spacing: 2px;
   font-size: 20px;
-  background-color:#699A46;
+  font-weight: 100;
+  background-color:#6B6B6B;
   color: white;
+  border-radius: 20px;
 }
 
 .col-md-7 p{
@@ -142,11 +153,11 @@ h5 {
 .work-title{
   margin-top: 20px;
   margin-bottom:20px;
-  margin-left: 200px;
+  margin-left: 250px;
   font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 8px;
-  font-weight: 200;
+  font-weight: 300;
   text-align: center;
   padding:5px;
   font-family: 'Quicksand', sans-serif;
@@ -177,4 +188,27 @@ border-radius: 3px;
 
 .farm img{
   height: 40%;
+}
+
+.specialty-name{
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.col-md-8{
+  border-style:outset;
+}
+
+.banner li{
+  display: inline-block;
+  border-style: outset;
+  text-align: center;
+  margin-left: 20px;
+  font-size: 0px;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+}
+.nav-container {
+  margin-left: 400px;
 }
