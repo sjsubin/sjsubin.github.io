@@ -165,7 +165,7 @@ h5 {
   color: white;
   padding-right: 3px;
   padding-left: 3px;
-  background-color: #29293d;
+  background-color: #666699;
   border-style: inset;
 }
 
@@ -197,14 +197,14 @@ border-radius: 3px;
 
 .specialty-name{
   font-family: 'Amatic SC', cursive;
-  letter-spacing: 8px;
+  letter-spacing: 6px;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 47px;
 }
 .col-md-8{
   border-style:outset;
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 .banner li{
