@@ -40,9 +40,9 @@ h1 {
 }
 
 .navigation {
+  margin-left: 120px;
   text-align: left;
   padding: 5px;
-  background-color: #6B6B6B;
   font-family: "Heebo", sans-serif;
   border-radius: 3px;
 }
@@ -210,6 +210,10 @@ border-radius: 3px;
   color: black;
   font-family: 'Roboto Mono', monospace;
 }
+
+.banner-about {
+  margin-left: 500px;
+}
 .nav-container {
   margin-left: 300px;
 }
@@ -229,7 +233,7 @@ border-radius: 3px;
 }
 
 .banner-work{
-  margin-left: 475px;
+  margin-left: 440px;
 }
 
 .banner-resume li{
@@ -238,7 +242,11 @@ border-style: outset;
 text-align: center;
 margin-left: 20px;
 font-size: 20px;
-color: black;
 margin-bottom: 40px;
 font-family: 'Roboto Mono', monospace;
+}
+
+.fas{
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
 }
