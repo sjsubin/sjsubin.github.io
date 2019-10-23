@@ -271,3 +271,10 @@ font-weight: 100;
   font-weight: 900;
   color: black;
 }
+.name {
+  font-size: 70px;
+}
+
+.personal-title-index {
+  margin-top: 20px;
+}
