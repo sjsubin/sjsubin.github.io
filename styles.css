@@ -152,17 +152,21 @@ h5 {
 }
 
 .work-title{
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom:20px;
   margin-left: 275px;
   font-size: 50px;
   text-transform: uppercase;
-  letter-spacing: 8px;
+  letter-spacing: 15px;
   font-weight: 300;
   text-align: center;
   padding:5px;
   font-family: 'Quicksand', sans-serif;
-  color: #6C367D;
+  color: white;
+  padding-right: 3px;
+  padding-left: 3px;
+  background-color: #29293d;
+  border-style: inset;
 }
 
 .work-pictures img{
