@@ -154,7 +154,7 @@ h5 {
   margin-top: 20px;
   margin-bottom:20px;
   margin-left: 250px;
-  font-size: 50px;
+  font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 8px;
   font-weight: 300;
@@ -198,7 +198,6 @@ border-radius: 3px;
 }
 .col-md-8{
   border-style:outset;
-  margin-top: 40px;
 }
 
 .banner li{
@@ -206,39 +205,10 @@ border-radius: 3px;
   border-style: outset;
   text-align: center;
   margin-left: 20px;
-  font-size: 20px;
+  font-size: 0px;
   color: black;
   font-family: 'Roboto Mono', monospace;
 }
 .nav-container {
-  margin-left: 300px;
-}
-
-.fix-margin {
-  margin-top: 20px;
-}
-
-.banner-work li{
-  display: inline-block;
-  border-style: outset;
-  text-align: center;
-  margin-left: 20px;
-  font-size: 20px;
-  color: black;
-  font-family: 'Roboto Mono', monospace;
-}
-
-.banner-work{
-  margin-left: 475px;
-}
-
-.banner-resume li{
-display: inline-block;
-border-style: outset;
-text-align: center;
-margin-left: 20px;
-font-size: 20px;
-color: black;
-margin-bottom: 40px;
-font-family: 'Roboto Mono', monospace;
+  margin-left: 400px;
 }
