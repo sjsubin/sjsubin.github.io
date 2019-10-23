@@ -200,6 +200,11 @@ border-radius: 3px;
   border-style:outset;
 }
 
+.col-md-8 img{
+  border-radius: 3px;
+
+}
+
 .banner li{
   display: inline-block;
   border-style: outset;
